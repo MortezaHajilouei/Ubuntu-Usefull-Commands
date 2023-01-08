@@ -94,6 +94,13 @@ nmcli -p device show
 ```
 
 
+
+## Get process list or process with special name
+```
+sudo ps -aux
+sudo ps -aux | grep [NAME]
+```
+
 ## ...
 ```
 ```
