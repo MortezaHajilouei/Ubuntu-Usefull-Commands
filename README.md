@@ -101,6 +101,39 @@ sudo ps -aux
 sudo ps -aux | grep [NAME]
 ```
 
+
+## Configure Service to start/stop on boot with systemd
+```
+sudo systemctl enable [name].service
+sudo systemctl disable [name].service
+```
+
+## Remove docker desktop
+```
+sudo apt remove docker-desktop
+rm -r $HOME/.docker/desktop
+sudo rm /usr/local/bin/com.docker.cli
+sudo apt purge docker-desktop
+```
+
+
+## ...
+```
+```
+## ...
+```
+```
+## ...
+```
+```
+## ...
+```
+```
+## ...
+```
+```
+
+
 ## ...
 ```
 ```
